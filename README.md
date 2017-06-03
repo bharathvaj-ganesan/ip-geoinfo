@@ -7,13 +7,14 @@
 Get geolocation information about an IP Address using promise.
 
 ## Installation
-```
+```javascript
 npm install ip-geoinfo --save
 ```
 ## Dependencies
+```javascript
 npm install require --save
 npm install require-promise --save
-
+```
 ## Usuage
 ```javascript
 var getgeoip = require('ip-geoinfo');
