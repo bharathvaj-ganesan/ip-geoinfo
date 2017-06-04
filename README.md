@@ -8,11 +8,14 @@ Get geolocation information about an IP Address using promise.
 
 ## Installation
 ```
-npm install ip-geoinfo --save
+$ npm install ip-geoinfo --save
 ```
 ## Dependencies
-npm install require --save
-npm install require-promise --save
+```
+$ npm install require --save
+$ npm install require-promise --save
+$ npm install ip-regex --save
+```
 
 ## Usuage
 ```javascript
@@ -31,8 +34,13 @@ getgeoip(ipAddress).then(function (geoData) {
             longitude: -122.0838,
             timezone: 'America/Los_Angeles' }  */
 });
-
 ```
+
+## Features 
+
+- Returns geolocation information in JSON format.
+- Validates IP address (New)
+
 ## License
 
 MIT © [Bharathvaj Ganesan](https://github.com/bharathvaj1995)
