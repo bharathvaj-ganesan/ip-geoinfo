@@ -1,4 +1,5 @@
 /*jslint node: true */
+/*jshint esversion: 6 */
 'use strict';
 const rp = require('request-promise'),
       ipGeoInfo = module.exports = (ipAddress) => {
